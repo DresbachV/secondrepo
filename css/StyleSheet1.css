@@ -1,0 +1,29 @@
+﻿
+
+body {
+    width: 85%; 
+    margin: auto; 
+}
+
+img {
+    height: 40%;
+    width: 40%;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: #0094ff;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        color: red;
+        line-height: 1.2em;
+    }
+    p {
+        line-height: 1.4em;
+    }
+}
+
+
